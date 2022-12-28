@@ -6,7 +6,10 @@
     [class*="container"] {
         width: 50%;
       }
-     
+      [class*="outside"] {
+        padding-right: 40px;
+    padding-left: 40px;
+      }
 }
 .container {
     display: flex;
@@ -51,7 +54,7 @@ div{
     background-color:white;
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: first baseline;
     align-items: flex-start;
 }
 .attribution { font-size: 11px; text-align: center; }
