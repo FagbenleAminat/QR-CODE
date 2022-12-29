@@ -6,6 +6,10 @@
     [class*="container"] {
         width: 50%;
       }
+      [img]{
+        height: 200px;
+        width: 200px;
+      }
       /* [class*="outside"] {
         padding-right: 40px;
     padding-left: 40px;
