@@ -6,10 +6,10 @@
     [class*="container"] {
         width: 50%;
       }
-      [class*="outside"] {
+      /* [class*="outside"] {
         padding-right: 40px;
     padding-left: 40px;
-      }
+      } */
 }
 .container {
     display: flex;
@@ -45,17 +45,22 @@ img{
 border-radius: 10px;
 
 }
+h1{
+    font-size: 25px;
+    margin: 5px 0px;
+}
 
 p{font-size: 15px;
     color: rgb(83, 83, 101);
-    justify-content: first baseline;
+   text-align: center;
+   justify-content:center;
+  display: flex;
+  margin: 5px 0px;
 }
 div{
     background-color:white;
-    display: flex;
+ display: flex;
     flex-direction: column;
-    justify-content: first baseline;
-    align-items: flex-start;
 }
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
