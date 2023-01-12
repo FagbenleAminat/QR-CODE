@@ -45,13 +45,14 @@ padding-bottom: 20px;
 body{
    font-family:outfit;
     background-color: hsl(212, 45%, 89%);
+    /* height: 200px; */
 }
 .attribution{
     background-color: hsl(212, 45%, 89%);
 }
 .outside{
-    margin-bottom: 200px;
-    margin-top: 200px;
+     margin-bottom: auto;
+    margin-top: auto; 
     background-color: hsl(212, 45%, 89%);
 
 }
@@ -75,6 +76,9 @@ div{
     background-color:white;
  display: flex;
     flex-direction: column;
+}
+footer{
+    margin-bottom: 20px;
 }
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
